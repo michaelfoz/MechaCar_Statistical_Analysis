@@ -1,4 +1,6 @@
 # Module 15 Challenge
+# Technical analysis = this R script (MechaCarChallenge.R)
+# Written Summary = in README.md under "Linear Regression to Predict MPG"
 
 # Deliverable 1 [Technical Analysis]
 # [x] 1. Download the MechaCar_mpg.csv file, 
