@@ -43,3 +43,4 @@ The image/screenshot below: 3 additonal tests.
 Having performed the one-sample test on each manufacturing lot, it is indicative that only lots 1 and 2 are not statistically different from the population mean.  In contrast, Lot 3 is statistically different from the population mean because its p-value of 0.42 is below the assumed significance level.
 
 ## Study Design: MechaCar vs Competition (Deliverable 4)
+Miles per gallon might be one metric that people are interested in, given that gas prices have significantly increased in the recent years (as seen on [usafacts.org](https://usafacts.org/articles/whats-the-average-price-for-a-gallon-of-gas-in-the-us/?gclid=CjwKCAjwmJeYBhAwEiwAXlg0ATekmda1f-H2obo2T9IXz1kS-nkJVbyQqA4PkK6wg1cgHXAzFzqXdxoCHGQQAvD_BwE)).
