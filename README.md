@@ -9,6 +9,12 @@ The image/screenshot below: the MechaChar_mpg.csv file imported into R and conve
 The image/screenshot below: the summary() function performed on the linear regression.
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge.png)
 
+Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+Is the slope of the linear model considered to be zero? Why or why not?
+
+Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 ## Summary Statistics on Suspension Coils (Deliverable 2: performed on Suspension_Coil.csv)
 
 The image below: the total summary dataframe(total_summary_df)
