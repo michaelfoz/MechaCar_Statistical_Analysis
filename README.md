@@ -43,6 +43,18 @@ The image/screenshot below: 3 additonal tests.
 Having performed the one-sample test on each manufacturing lot, it is indicative that only lots 1 and 2 are not statistically different from the population mean.  In contrast, Lot 3 is statistically different from the population mean because its p-value of 0.42 is below the assumed significance level.
 
 ## Study Design: MechaCar vs Competition (Deliverable 4)
-Miles per gallon might be one metric that people are interested in, given that gas prices have significantly increased in the recent years (as seen on [usafacts.org](https://usafacts.org/articles/whats-the-average-price-for-a-gallon-of-gas-in-the-us/?gclid=CjwKCAjwmJeYBhAwEiwAXlg0ATekmda1f-H2obo2T9IXz1kS-nkJVbyQqA4PkK6wg1cgHXAzFzqXdxoCHGQQAvD_BwE)).
+Earlier in Deliverable 1, miles per gallon was already a variable that is taken into consideration for all prototypes.  Miles per gallon (mpg)/or fuel-effencieny may be one metric that consumers are interested in, given that gas prices have significantly increased in the recent years (as seen on [usafacts.org](https://usafacts.org/articles/whats-the-average-price-for-a-gallon-of-gas-in-the-us/?gclid=CjwKCAjwmJeYBhAwEiwAXlg0ATekmda1f-H2obo2T9IXz1kS-nkJVbyQqA4PkK6wg1cgHXAzFzqXdxoCHGQQAvD_BwE) below).
 
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/Gas%20Prices%20-%20usafacts.org.png)
+
+When going about performing tests and making comparisons based on MechaCar vs. competitors, data for mpg is readily available to the general public for most (if not all) vehicles.
+
+The hypotheses would be as follows:
+Null hypothesis: there is no statistical difference between the fuel-efficincy of MechaCar vehicles vs. that of the competition.
+Alternative hypothesis: there is indeed a statistical difference between MechaCar vehicles' fuel-efficiency vs. that of the competition.
+
+Similar to Deliverable 3, a one-sample t-test can be performed:
+The population (i.e., population data) will be a the scope of all vehicles (both MechaCar's and MechaCar's competitor(s)).  The datapoints of which would again be from both MechaCar's vehicles as well as MechaCar's competitor(s).
+
+
+
