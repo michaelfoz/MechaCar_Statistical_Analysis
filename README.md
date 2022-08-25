@@ -45,4 +45,4 @@ Having performed the one-sample test on each manufacturing lot, it is indicative
 ## Study Design: MechaCar vs Competition (Deliverable 4)
 Miles per gallon might be one metric that people are interested in, given that gas prices have significantly increased in the recent years (as seen on [usafacts.org](https://usafacts.org/articles/whats-the-average-price-for-a-gallon-of-gas-in-the-us/?gclid=CjwKCAjwmJeYBhAwEiwAXlg0ATekmda1f-H2obo2T9IXz1kS-nkJVbyQqA4PkK6wg1cgHXAzFzqXdxoCHGQQAvD_BwE)).
 
-[image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/Gas%20Prices%20-%20usafacts.org.png)
+![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/Gas%20Prices%20-%20usafacts.org.png)
