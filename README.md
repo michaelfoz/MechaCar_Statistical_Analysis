@@ -27,7 +27,11 @@ The image below: the total summary dataframe(total_summary_df)
 The image/screenshot below: the lot summary dataframe (lot_summary_df)
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/e2aa4f7921bdd20a0e4e8286766b9ca93eeeb03a/MechaCharChallenge%20-%202%20-%20total_summary_df.png)
 
-#### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+### Deliverable 2 Question: 
+###The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+As seen in the upper-left source pane for the lot summary dataframe, the design specifications are met only by manufacturing lots 1 and 2--where both lots have the same calculated median and mean.  On the other hand, lot 3 is more variable, with a variance of 170.29.
+
+When taking into condideration the total summary dataframe, 
 
 ## T-Tests on Suspension Coils (Deliverable 3: performed on Suspension_Coil.csv)
 
