@@ -13,4 +13,6 @@ UCD Module 15: Statistics and R
 
 ## T-Tests on Suspension Coils (Deliverable 3: performed on Suspension_Coil.csv)
 
+![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge%20-%203%20-%20PSI%20Across%20All%20Lots.png)
+
 ## Study Design: MechaCar vs Competition (Deliverable 4)
