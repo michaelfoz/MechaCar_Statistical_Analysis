@@ -24,8 +24,34 @@ mechacar_linear_regression <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler
 summary(mechacar_linear_regression)
 
 
+
 # Deliverable 2 [Technical Analysis]
 # [x] 1. Download the Suspension_Coil.csv file, 
 #         and place it in the active directory for your R session.
 # [x] 2. In your MechaCarChallenge.RScript, 
 #         import and read in the Suspension_Coil.csv file as a table.
+suspension_coil_table <- read.csv("Suspension_Coil.csv",stringsAsFactors = F, check.names = F)
+
+# [x] 3. Write an RScript that creates a total_summary dataframe using the summarize() function 
+#         to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+total_summary_df <- suspension_coil_table %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+
+# [x] 4. Write an RScript that creates a lot_summary dataframe using the group_by() 
+#         and the summarize() functions to group each manufacturing lot by the mean, 
+#         median, variance, and standard deviation of the suspension coil’s PSI column.
+lot_summary_df <- suspension_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups='keep')
+
+
+
+# Deliverable 3 [Technical Analysis]
+# [x] 1. In your MechaCarChallenge.RScript, write an RScript using the t.test() function 
+#         to determine if the PSI across all manufacturing lots is statistically different 
+#         from the population mean of 1,500 pounds per square inch.
+t.test(suspension_coil_table$PSI,mu = 1500)
+
+# [x] 2. Next, write three more RScripts in your MechaCarChallenge.RScript using the t.test() function 
+#         and its subset() argument to determine if the PSI for each manufacturing lot is 
+#         statistically different from the population mean of 1,500 pounds per square inch.
+t.test(subset(suspension_coil_table,Manufacturing_Lot=="Lot1")$PSI,mu = 1500)
+t.test(subset(suspension_coil_table,Manufacturing_Lot=="Lot2")$PSI,mu = 1500)
+t.test(subset(suspension_coil_table,Manufacturing_Lot=="Lot3")$PSI,mu = 1500)
