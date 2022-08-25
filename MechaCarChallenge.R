@@ -1,6 +1,6 @@
 # Module 15 Challenge
-# Technical analysis = this R script (MechaCarChallenge.R)
-# Written Summary = in README.md under "Linear Regression to Predict MPG"
+# Technical analyses = this R script (MechaCarChallenge.R)
+# Written Summaries = in README.md
 
 # Deliverable 1 [Technical Analysis]
 # [x] 1. Download the MechaCar_mpg.csv file, 
@@ -22,3 +22,10 @@ mechacar_linear_regression <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler
 # [x] 6. Using the summary() function, determine the p-value 
 #         and the r-squared value for the linear regression model.
 summary(mechacar_linear_regression)
+
+
+# Deliverable 2 [Technical Analysis]
+# [x] 1. Download the Suspension_Coil.csv file, 
+#         and place it in the active directory for your R session.
+# [x] 2. In your MechaCarChallenge.RScript, 
+#         import and read in the Suspension_Coil.csv file as a table.
