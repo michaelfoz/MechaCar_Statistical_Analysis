@@ -24,8 +24,19 @@ mechacar_linear_regression <- lm(mpg ~ vehicle_length + vehicle_weight + spoiler
 summary(mechacar_linear_regression)
 
 
+
 # Deliverable 2 [Technical Analysis]
 # [x] 1. Download the Suspension_Coil.csv file, 
 #         and place it in the active directory for your R session.
 # [x] 2. In your MechaCarChallenge.RScript, 
 #         import and read in the Suspension_Coil.csv file as a table.
+suspension_coil_table <- read.csv("Suspension_Coil.csv",stringsAsFactors = F, check.names = F)
+
+# [x] 3. Write an RScript that creates a total_summary dataframe using the summarize() function 
+#         to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
+total_summary_df <- suspension_coil_table %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+
+# [x] 4. Write an RScript that creates a lot_summary dataframe using the group_by() 
+#         and the summarize() functions to group each manufacturing lot by the mean, 
+#         median, variance, and standard deviation of the suspension coil’s PSI column.
+lot_summary_df <- suspension_coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups='keep')
