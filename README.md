@@ -10,3 +10,7 @@ UCD Module 15: Statistics and R
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge%20%202-total_summary_df.png)
 
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/e2aa4f7921bdd20a0e4e8286766b9ca93eeeb03a/MechaCharChallenge%20-%202%20-%20total_summary_df.png)
+
+## T-Tests on Suspension Coils (Deliverable 3: performed on Suspension_Coil.csv)
+
+## Study Design: MechaCar vs Competition (Deliverable 4)
