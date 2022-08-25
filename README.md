@@ -3,6 +3,8 @@ UCD Module 15: Statistics and R
 
 ## Linear Regresion to Predict MPG (Deliverable 1: performed on MechaCar_mpg.csv)
 
+Image below: The MechaChar_mpg.csv file imported into R and converted into a dataframe:
+
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/mechachar_mpg_df.png)
 
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge.png)
