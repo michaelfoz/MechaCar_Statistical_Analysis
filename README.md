@@ -39,4 +39,7 @@ The image/screenshot below: t-test performed on all manufacturing lots (1-3).
 The image/screenshot below: 3 additonal tests.
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge%20-%203%20-%20All%20Lots.png)
 
+### Deliverable 3 T-Test Summary:
+Having performed the one-sample test on each manufacturing lot, it is indicative that only lots 1 and 2 are not statistically different from the population mean.  In contrast, Lot 3 is statistically different from the population mean because its p-value of 0.42 is below the assumed significance level.
+
 ## Study Design: MechaCar vs Competition (Deliverable 4)
