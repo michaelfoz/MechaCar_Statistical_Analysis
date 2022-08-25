@@ -15,4 +15,6 @@ UCD Module 15: Statistics and R
 
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge%20-%203%20-%20PSI%20Across%20All%20Lots.png)
 
+![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge%20-%203%20-%20All%20Lots.png)
+
 ## Study Design: MechaCar vs Competition (Deliverable 4)
