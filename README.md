@@ -6,16 +6,23 @@ UCD Module 15: Statistics and R
 The image/screenshot below: the MechaChar_mpg.csv file imported into R and converted into a dataframe.
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/mechachar_mpg_df.png)
 
+### Deliverable 1 Questions:
+
 The image/screenshot below: the summary() function performed on the linear regression.
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge.png)
 
 #### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+The variablesin the dataset that provide non-random amounts of variance to the mpg are: vehicle_length, and ground_clearance.
 
 #### Is the slope of the linear model considered to be zero? Why or why not?
+Displayed on the R Console (bottom left pane of the image), is the summary for the linear regression model.  In the summary, the p-value of the hypothesis test was a value of 5.35e-11, which indicates that the slope of the linear model is not considered to be 0. 
 
 #### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+Given that the r-squared value was 0.71, it can be noted that around 71% of the time, the linear regression model will predict the mpg of the MechaCar prototypes (i.e., the model is effective).
 
 ## Summary Statistics on Suspension Coils (Deliverable 2: performed on Suspension_Coil.csv)
+
+
 
 The image below: the total summary dataframe(total_summary_df)
 ![image](https://github.com/michaelfoz/MechaCar_Statistical_Analysis/blob/main/MechaCharChallenge%20%202-total_summary_df.png)
